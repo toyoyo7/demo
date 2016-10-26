@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('github.com/toyoyo7/multibranch-demo-lib') _
+//@Library('github.com/toyoyo7/multibranch-demo-lib') _
 
 /*** Build the eboutique project components ***/
 
