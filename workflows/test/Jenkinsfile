@@ -1,7 +1,7 @@
 #!groovy
 echo 'Start'
-def lib = libraryResource '../../'
-echo 'Lib=' + lib 
+//def lib = libraryResource '../../'
+//echo 'Lib=' + lib 
 //@Library(['acme', 'helloWorld', 'master']) _
 
 def helloWorld = load('../../var/helloWorld.groovy')
