@@ -1,17 +1,13 @@
 #!groovy
 echo 'Start'
-//def lib = libraryResource '../../'
-//echo 'Lib=' + lib 
-//@Library(['acme', 'helloWorld', 'master']) _
 @Library(['helloWorld@master']) _
 
-//def helloWorld = load('../../var/helloWorld.groovy')
 /*** Build the eboutique project components ***/
-helloWorld("Joe")
+
 stage concurrency: 1, name: 'Build'
-/*master {
+master {
  helloWorld("Joe")
  acme.foo = "5";
  echo acme.foo;
  acme.say "Joe";
-}*/
+}
