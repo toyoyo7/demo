@@ -3,7 +3,7 @@ echo 'Start'
 //def lib = libraryResource '../../'
 //echo 'Lib=' + lib 
 //@Library(['acme', 'helloWorld', 'master']) _
-@Library(['helloWorld']) _
+@Library(['helloWorld@master']) _
 
 //def helloWorld = load('../../var/helloWorld.groovy')
 /*** Build the eboutique project components ***/
