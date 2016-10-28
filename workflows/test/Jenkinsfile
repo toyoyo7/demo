@@ -1,5 +1,6 @@
 #!groovy
 
+libraryResource '../../'
 @Library(['acme', 'helloWorld', 'master']) _
 
 /*** Build the eboutique project components ***/
