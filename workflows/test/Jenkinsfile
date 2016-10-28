@@ -4,7 +4,7 @@ echo 'Start'
 //echo 'Lib=' + lib 
 //@Library(['acme', 'helloWorld', 'master']) _
 
-def helloWorld = load('../../var/helloWorld.groovy')
+//def helloWorld = load('../../var/helloWorld.groovy')
 /*** Build the eboutique project components ***/
 helloWorld("Joe")
 stage concurrency: 1, name: 'Build'
